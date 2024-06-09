@@ -1,6 +1,6 @@
 .bag{
     margin: auto;
-    margin-top: 100PX;
+    margin-top: 120px;
     border-radius: 10px;
     height: 600px;
     max-width: 500px;
@@ -20,6 +20,9 @@
     font-weight: bolder;
     color: green;
     margin: 30px 0;
+    &:hover{
+        color: red;
+    }
 }
 .btn{
     padding: 10px 20px;
@@ -35,4 +38,28 @@
         border-radius: 10px;
 
     }
+}
+.body{
+    background: url("/foto.webp")no-repeat;
+}
+
+
+
+
+@media (max-width:600px) {
+    .bag{
+        width: 300px;
+    }
+    .bag__title{
+        font-size: 40px;}
+        .bag__text{
+            margin: 20px 0;
+            font-size: 100px;
+            font-weight: bolder;}
+            .btn{
+                font-size: 18px;
+                font-weight: 300;
+                margin: 10px;
+                padding: 5px 10px;
+            }
 }
