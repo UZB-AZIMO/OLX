@@ -26,6 +26,15 @@ flex-wrap: wrap;
             padding: 0 10px;
         }
     }
+    .navbar__icon{
+        color:white;
+        transition: 1s;
+        font-size: 20px;
+      
+        &:hover{
+color: red;
+        }
+    }
     .like{
         padding: 0 10px;
         display: flex;

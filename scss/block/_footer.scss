@@ -1,0 +1,38 @@
+.footer{
+    background-color: white;
+    padding: 40px 0;
+    .footer__wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+&__card{
+
+
+
+    .card__text{
+        padding: 10px;
+        font-size: 20px;
+        font-weight: 600;
+        cursor: pointer;
+    color:rgb(1, 48, 48);
+    transition: 1s;
+        &:hover{
+            background-color:rgb(1, 48, 48);     
+        color: white;
+        padding: 10px;
+        }
+    }
+}
+.footer__img{
+    width: 200px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+.card__item{
+    font-size: 16px;
+    color: rgb(71, 70, 70);
+    margin-top: 20px;
+    text-align: center;
+}
+}
