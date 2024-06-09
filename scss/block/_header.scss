@@ -85,7 +85,6 @@ gap: 10px;
     .header{
         .navbar{ 
             &__btn{
-                padding: 5px ;
                 font-size: 12px;
                 font-weight: 400;
                 border: 1px solid white;
@@ -95,29 +94,20 @@ gap: 10px;
                 width: 25px;
             }
             &__collection{
-                gap: 7px;
+                gap: 9px;
                     }
         }
     }
     .navbar__item{
-        font-size: 12px;
-        font-weight: 200;
-        &:hover{
-            font-size: 12px;
-        }
+        font-size: 13px;
+        font-weight: 200;   
     }
-
+    .xabar{
+        display: none;
+    }
    
         }
 
 
 
-        
-
-@media (max-width:390px) {
-    
-    .xabar{
-        display: none;
-    }
-    
-}
+     
