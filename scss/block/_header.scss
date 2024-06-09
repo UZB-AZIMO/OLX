@@ -27,12 +27,7 @@
             cursor: pointer;
         }
     }
-    &__menu{
-        display: none;
-        &:hover{
-            color: red;
-        }
-    }
+   
     &__btn{
         padding: 10px 20px;
         border: 5px solid white;
@@ -63,47 +58,54 @@ background-color: rgb(19, 19, 40);
 
 
 
-@media ( max-width:890px){
-    
-}
-
-
-@media (
-    max-width:755px) {
-    .navbar{
-       
-        &__collection{
-            display: none;
-        }
+@media (max-width:720px) {
+    .header{
+        .navbar{ 
+    &__logo{
+        height: 30px;
+    }
+    &__btn{
+        padding: 5px ;
+        font-size: 12px;
+        border: 1px solid white;
         
-      
-      &__btns{
-        display: block;
-        font-size: 25px;
-        margin-left: 20%;
-      }
     }
-}
-
-@media ( max-width:605px){
-    .navbar__btns{
-display: none;
+    &__collection{
+gap: 10px;
     }
     
-}
-
-
-
-
-
-
-@media (max-width:345px) {
-    .navbar{
-        &__logo{
-            font-size: 24px;
-        }
-
+    }
+    }
+    .navbar__item{
+        font-size: 14px;
     }
 }
 
 
+
+
+
+@media (max-width:490px) {
+    .header{
+        .navbar{ 
+            &__btn{
+                padding: 5px ;
+                font-size: 12px;
+                font-weight: 400;
+                border: 1px solid white;
+                padding: 5px 2px;
+            }
+            &__logo{
+                width: 25px;
+            }
+            &__collection{
+                gap: 7px;
+                    }
+        }
+    }
+    .navbar__item{
+        font-size: 10px;
+        font-weight: 400;
+    }
+   
+        }
