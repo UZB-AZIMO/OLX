@@ -1,0 +1,91 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+.fazer{
+    display: inline-block;
+    gap: 20px;
+    text-align: center;
+}
+.title{
+    height: 50px;
+    text-align: center;
+    font-size: 40px;
+    background-color: white;
+}
+.bolimlar{
+    width: 250px;
+    height: 250px;
+    margin:00;
+
+    text-align: center;
+
+}
+.nom{
+    color: black;
+}
+.img{
+    border-radius: 50%;
+}
+.bag{
+    display: flex;
+    flex-wrap: wrap;
+    gap:5px;
+    align-items: center;
+}
+
+ 
+
+
+
+}
+.home{
+    display: flex;
+    flex-wrap: wrap;
+    gap:30px;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+.shop{
+    flex-direction: row;
+margin: auto;
+    display: inline-block;
+    gap: 20px;
+    width: 400px;
+    height: 520px;
+background-color:white;
+border-radius: 8px;
+margin: auto;
+
+
+
+}
+.img{
+    width: 100%;
+    height: 200px;
+    border-radius: 8px;
+    
+}
+.price{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.adress{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.car{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
